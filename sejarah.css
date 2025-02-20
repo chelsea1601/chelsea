@@ -1,0 +1,219 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: bisque;
+}
+
+.judul-sejarah {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.teks-judul{
+    display: inline-block;
+    animation: wave 1s infinite;
+}
+
+.navbar{
+    background: linear-gradient(45deg, #FF5733, #FFC300); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
+    cursor: pointer;
+    margin-left: 85rem; 
+}
+
+.navbar:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+img {
+    height: 200px;
+}
+
+.Revolusi {
+    border: 5px solid grey;
+    border-radius: 10px;
+    background-color: rgb(3, 46, 46);
+    display: flex;
+    margin: 2rem 3rem; 
+    align-items: flex-start; 
+    font-weight: bold;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s; 
+    transition: 0.5s ease-in-out;
+}
+
+.Revolusi:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.revolusi-text {
+    background-color: rgb(16, 1, 1);
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    padding: 1rem; 
+    color: white;
+}
+
+.industri-1 {
+    border: 4px solid salmon;
+    border-radius: 10px;
+    background-color: brown;
+    margin: 5rem 3rem; 
+    display: flex;
+    padding: 2rem; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s;
+    transition: 0.5s ease-in-out;
+}
+
+.industri-1:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.industri-1-text {
+    background-color: rgb(235, 145, 145);
+    border-radius: 10px;
+    flex: 1; 
+    padding: 2rem; 
+    padding-top: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.industri-2 {
+    border: 5px solid grey;
+    border-radius: 10px;
+    background-color: rgb(3, 46, 46);
+    display: flex;
+    margin: 2rem 3rem; 
+    align-items: center; 
+    font-weight: bold;
+    padding: 2rem; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s; 
+    transition: 0.5s ease-in-out;
+}
+
+.industri-2:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.industri-2-text {
+    background-color: rgb(16, 1, 1);
+    border-radius: 10px;
+    margin: 1rem; 
+    padding: 2rem; 
+    color: white;
+    flex: 1; 
+}
+
+.industri-3{
+    border: 4px solid salmon;
+    border-radius: 10px;
+    background-color: brown;
+    margin: 5rem 3rem; 
+    display: flex;
+    padding: 2rem; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s;
+    transition: 0.5s ease-in-out;
+}
+
+.industri-3:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.industri-3-text{
+    background-color: rgb(235, 145, 145);
+    border-radius: 10px;
+    flex: 1; 
+    padding: 2rem; 
+    padding-top: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.industri-4{
+    border: 5px solid grey;
+    border-radius: 10px;
+    background-color: rgb(3, 46, 46);
+    display: flex;
+    margin: 2rem 3rem; 
+    align-items: center; 
+    font-weight: bold;
+    padding: 2rem; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s;
+    transition: 0.5s ease-in-out;
+}
+
+.industri-4:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.industri-4-text{
+    background-color: rgb(16, 1, 1);
+    border-radius: 10px;
+    margin: 1rem; 
+    padding: 2rem; 
+    color: white;
+    flex: 1;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.Revolusi{
+    animation: slide-in 1.5s backwards;
+}
+
+.industri-1{
+    animation: slide-in 2s backwards;
+}
+
+.industri-2{
+    animation: slide-in 2.5s backwards;
+}
+
+.industri-3{
+    animation: slide-in 3s backwards;
+}
+
+.industri-4{
+    animation: slide-in 3.5s backwards;
+}
+
+@keyframes wave {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}

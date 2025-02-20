@@ -1,0 +1,75 @@
+.judul-pipas{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.back-pipas{
+    height: 40px;
+    width: 40px;
+    margin-left: 2rem;
+  
+}
+
+.text-back-pipas{
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bahayameroko-tittle{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Tujuan{
+    font-size: 20px;
+    margin-left: 3rem;
+    padding-top: 4rem;
+    font-weight: bold;
+    gap: 3px 3px 3px;
+}
+
+.observasi-awal{
+    margin-left: 3rem;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 13rem;
+}
+
+.pembahasan{
+    margin-left: 3rem;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 13rem;
+}
+
+.analisis{
+    margin-left: 3rem;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 13rem;
+}
+
+.pencegahan{
+    margin-left: 3rem;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 13rem;
+}
+
+.pengamatan{
+    margin-left: 3rem;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 13rem;
+}
+
+.roko-img{
+    height: 40px;
+    width: 40px;
+}

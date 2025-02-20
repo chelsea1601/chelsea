@@ -1,0 +1,59 @@
+.back{
+    height: 40px;
+    width: 40px;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.text-back{
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.next{
+    height: 40px;
+    width: 40px;
+    margin-left: 87rem;
+    margin-top: 0.2rem;
+}
+
+.title-project{
+    text-align: center;
+}
+
+.judul-flutter{
+    margin-top: 10rem;
+    margin-left: 3rem;
+    font-size: 35px;
+}
+
+.deskripsi-project{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 30px;
+    margin-left: 3rem;
+    gap: 3rem;
+}
+
+.flutter-pict{
+    transition: 0.2s ease-in-out;
+}
+
+.flutter-pict:hover{
+    transform: scale(1.1);
+}
+
+.codingflutter-pict{
+    width: 65%;
+    padding-left: 4.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+.codingflutter-pict:hover{
+    transform: scale(1.1);
+}
+
+.deskrip-img{
+    display: flex;
+}
